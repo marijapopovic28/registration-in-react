@@ -1,0 +1,50 @@
+{
+    "Start registration": {
+        "1": "Start registration"
+    },
+    "Continue": {
+        "1": "Continue"
+    },
+    "Complete": {
+        "1": "Complete"
+    },
+    "Fill the data to continue": {
+        "1": "Fill the data to continue"
+    },
+    "First Name": {
+        "1": "First Name"
+    },
+    "Last Name": {
+        "1": "Last Name"
+    },
+    "Username": {
+        "1": "Username"
+    },
+    "Email": {
+        "1": "Email"
+    },
+    "Password": {
+        "1": "Password"
+    },
+    "Confirm Password": {
+        "1": "Confirm password"
+    },
+    "I agree with terms & conditions": {
+        "1": "I agree with terms & conditions"
+    },
+    "Finish": {
+        "1": "Finish"
+    },
+    "English": {
+        "1": "English"
+    },
+    "Serbian": {
+        "1": "Serbian"
+    },
+    "Spanish": {
+        "1": "Spanish"
+    },
+    "Password do not match": {
+        "1": "Password do not match"
+    }
+}

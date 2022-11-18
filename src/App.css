@@ -1,0 +1,123 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navigation{
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation button{
+  margin-left: 5px;
+  padding: 0px 0px;
+  border: none;
+  box-shadow: 0 0 3px rgba(224,224,128,255);
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+
+.navigation button:hover{
+ color: rgba(224,224,128,255);
+}
+
+.monkey{
+justify-content: center;
+align-items: center;
+display: flex;
+padding-top: 5%;
+background-repeat: repeat;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.MuiSvgIcon-root.MuiStepIcon-root.Mui-active{
+  color: rgba(128,64,64,255);
+}
+
+.MuiSvgIcon-root.MuiStepIcon-root.Mui-completed{
+  color: rgba(224,224,128,255);
+}
+
+.Stepper {
+  background-color: rgba(255, 255, 255, 0.89);
+  width: 50%;
+  padding: 1rem;
+  margin: 2.5rem auto;
+  border: 3.5px solid rgba(224,224,128,255);
+}
+
+body {
+  background-image: url('C:\Users\User\Desktop\registration\src/images/mon2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+}
+
+.mainContainer{
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  z-index: 15;
+}
+
+.formContainer{
+  position: relative;
+  width: 30rem;
+  height: auto;
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* button na prvi korak */
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary{
+  width: 100%;
+  margin-top: 1rem;
+  height: 3rem;
+  background-color: rgba(128,64,64,255);
+  color: rgba(224,224,128,255); 
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.App-header {
+  background-color: #143e92;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

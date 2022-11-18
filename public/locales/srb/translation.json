@@ -1,0 +1,53 @@
+{
+    "Start registration": {
+        "1": "Počnite registraciju"
+    },
+    "Continue": {
+        "1": "Nastavite"
+    },
+    "Complete": {
+        "1": "Kraj"
+    },
+    "Fill the data to continue": {
+        "1": "Popunite podatke da biste nastavili"
+    },
+    "First Name": {
+        "1": "Ime"
+    },
+    "Last Name": {
+        "1": "Prezime"
+    },
+    "Username": {
+        "1": "Korisničko ime"
+    },
+    "Email": {
+        "1": "Email"
+    },
+    "Password": {
+        "1": "Šifra"
+    },
+    "Confirm Password": {
+        "1": "Potvrdite šifru"
+    },
+    "I agree with terms & conditions": {
+        "1": "Slažem se sa uslovima korišćenja"
+    },
+    "Finish": {
+        "1": "Kraj"
+    },
+    "English": {
+        "1": "Engleski"
+    },
+    "Serbian": {
+        "1": "Srpski"
+    },
+    "Spanish": {
+        "1": "Španski"
+    },
+    "Password do not match": {
+        "1": "Šifre se ne poklapaju"
+    },
+    "Username must be more than 1 character": {
+        "1": "Korisničko ime mora imati više od jednog karaktera"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Start registration": {
+        "1": "Iniciar registro"
+    },
+    "Continue": {
+        "1": "Continuar"
+    },
+    "Complete": {
+        "1": "Completo"
+    },
+    "Fill the data to continue": {
+        "1": "Completa los datos para continuar"
+    },
+    "First Name": {
+        "1": "Nombre"
+    },
+    "Last Name": {
+        "1": "Apellido"
+    },
+    "Username": {
+        "1": "Nombre de usuario"
+    },
+    "Email": {
+        "1": "Email"
+    },
+    "Password": {
+        "1": "Clave"
+    },
+    "Confirm Password": {
+        "1": "Confirmar contraseña"
+    },
+    "I agree with terms & conditions": {
+        "1": "Estoy de acuerdo con los términos y condiciones"
+    },
+    "Finish": {
+        "1": "Finalizar"
+    },
+    "English": {
+        "1": "Inglés"
+    },
+    "Serbian": {
+        "1": "Serbio"
+    },
+    "Spanish": {
+        "1": "Español"
+    },
+    "Password do not match": {
+        "1": "Las contraseñas no coinciden"
+    }
+}
