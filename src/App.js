@@ -3,8 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import MultistepForm from "./components/MultistepForm";
 import { Suspense } from "react";
 
-//dodaaaaaaaj u git
-
 function App() {
   return (
     <div>
