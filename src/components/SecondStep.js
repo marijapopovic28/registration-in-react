@@ -8,12 +8,6 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
 
     const { t } = useTranslation();
 
-    // function clickLanguage(lang) {
-    //     i18n.changeLanguage(lang);
-    // }
-
-    //define the state schema
-
     const stateSchema = {
         username: { value: "", error: "" },
         email: { value: "", error: "" },

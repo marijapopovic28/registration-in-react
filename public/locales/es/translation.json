@@ -44,7 +44,25 @@
     "Spanish": {
         "1": "Español"
     },
+    "First name must be more than 1 character": {
+        "1": "El nombre debe tener más de 1 carácter"
+    },
+    "Last name must be more than 3 characters": {
+        "1": "El apellido debe tener más de 3 caracteres"
+    },
+    "Username must be more than 1 character": {
+        "1": "El nombre de usuario debe tener más de 1 carácter"
+    },
+    "Email format is not correct": {
+        "1": "El formato del correo electrónico no es correcto"
+    },
+    "At least one special charachter and minimum 6 characters": {
+        "1": "Al menos un carácter especial y mínimo 6 caracteres"
+    },
     "Password do not match": {
-        "1": "Las contraseñas no coinciden"
+        "1": "La contraseña no coincide"
+    },
+    "You must agree with the terms and conditions": {
+        "1": "Debes estar de acuerdo con los términos y condiciones"
     }
 }
