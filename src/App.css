@@ -19,23 +19,30 @@
   margin-left: 5px;
   padding: 0px 0px;
   border: none;
-  box-shadow: 0 0 3px rgba(224,224,128,255);
+  box-shadow: 0 0 3px rgba(58,151,58,255);
   transition: all 0.5s;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.89);
 }
 
 .navigation button:hover{
- color: rgba(224,224,128,255);
+ color: rgba(58,151,58,255);
 }
 
 .monkey{
 justify-content: center;
 align-items: center;
 display: flex;
-padding-top: 5%;
+padding-top: 30px;
 background-repeat: repeat;
 }
+
+.success{
+  position: fixed;
+  display: flex;
+  margin-bottom: 320px;
+  color: rgba(58,151,58,255);
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -48,7 +55,7 @@ background-repeat: repeat;
 }
 
 .MuiSvgIcon-root.MuiStepIcon-root.Mui-completed{
-  color: rgba(224,224,128,255);
+  color: rgba(58,151,58,255);
 }
 
 .Stepper {
@@ -56,11 +63,11 @@ background-repeat: repeat;
   width: 50%;
   padding: 1rem;
   margin: 2.5rem auto;
-  border: 3.5px solid rgba(224,224,128,255);
+  border: 3.5px solid rgba(58,151,58,255);
 }
 
 body {
-  background-image: url('C:\Users\User\Desktop\registration\src/images/mon2.jpg');
+  background-image: url('C:\Users\User\Desktop\registration\src/images/monkey.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

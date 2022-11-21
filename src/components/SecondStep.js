@@ -184,17 +184,13 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                             !confirmPassword || confirmPassword !== password || termsAndConditions
                             ?
                             (
-                                // <>
                                 <Button className="disabledButton" disabled variant="contained">
-                                    {activeStep === steps.length ? "Finish" : "Finish"}
+                                    {activeStep === steps.length ? "Complete" : "Finish"}
                                 </Button>
-                                // </>
                             ) : (
-                                // <>
                                 <Button className="button" onClick={handleNext} variant="contained">
-                                    {activeStep === steps.length ? "Finish" : "Finish"}
+                                    {activeStep === steps.length ? "Complete" : "Finish"}
                                 </Button>
-                                // </>
                             )
                     }
                 </form>

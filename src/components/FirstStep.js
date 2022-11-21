@@ -7,11 +7,6 @@ const FirstStep = ({ activeStep, steps, handleNext }) => {
 
     const { t } = useTranslation();
 
-    // function clickLanguage(lang) {
-    //     i18n.changeLanguage(lang);
-    // }
-
-    //define the state schema
     const stateSchema = {
         firstName: { value: "", error: "" },
         lastName: { value: "", error: "" },
