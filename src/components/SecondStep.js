@@ -86,7 +86,7 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                     {errors.username && dirty.username && (
                         <Typography
                             style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                        >{errors.username}
+                        >{t('Username must be more than 1 character.1')}
                         </Typography>
                     )}
                     <TextField className="inputField"
@@ -100,7 +100,7 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                     {errors.email && dirty.email && (
                         <Typography
                             style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                        >{errors.email}
+                        >{t('Email format is not correct.1')}
                         </Typography>
                     )}
 
@@ -128,7 +128,7 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                         {errors.password && dirty.password && (
                             <Typography
                                 style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                            >{errors.password}
+                            >{t('At least one special charachter and minimum 6 characters.1')}
                             </Typography>
                         )}
                     </FormControl>
@@ -173,7 +173,7 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                     {errors.termsAndConditions && dirty.termsAndConditions && (
                         <Typography
                             style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                        >{errors.termsAndConditions}
+                        >{t('You must agree with the terms and conditions.1')}
                         </Typography>
                     )}
 
@@ -185,11 +185,11 @@ const SecondStep = ({ activeStep, steps, handleNext }) => {
                             ?
                             (
                                 <Button className="disabledButton" disabled variant="contained">
-                                    {activeStep === steps.length ? "Complete" : "Finish"}
+                                    {activeStep === steps.length ? "Complete" : t('Finish.1')}
                                 </Button>
                             ) : (
                                 <Button className="button" onClick={handleNext} variant="contained">
-                                    {activeStep === steps.length ? "Complete" : "Finish"}
+                                    {activeStep === steps.length ? "Complete" : t('Finish.1')}
                                 </Button>
                             )
                     }

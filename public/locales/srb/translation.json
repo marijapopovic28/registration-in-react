@@ -1,12 +1,12 @@
 {
     "Start registration": {
-        "1": "Počnite registraciju"
+        "1": "POČNITE REGISTRACIJU"
     },
     "Continue": {
-        "1": "Nastavite"
+        "1": "NASTAVITE"
     },
     "Complete": {
-        "1": "Kraj"
+        "1": "KRAJ"
     },
     "Fill the data to continue": {
         "1": "Popunite podatke da biste nastavili"
@@ -45,25 +45,25 @@
         "1": "Španski"
     },
     "First name must be more than 1 character": {
-        "1": "Ime mora imati više od jednog karaktera"
+        "1": "Ime mora imati više od jednog karaktera."
     },
     "Last name must be more than 3 characters": {
-        "1": "Prezime mora imati više od 3 karaktera"
+        "1": "Prezime mora imati više od 3 karaktera."
     },
     "Username must be more than 1 character": {
-        "1": "Korisničko ime mora imati više od jednog karaktera"
+        "1": "Korisničko ime mora imati više od jednog karaktera."
     },
     "Email format is not correct": {
-        "1": "Format email-a nije tačan"
+        "1": "Format email-a nije tačan."
     },
     "At least one special charachter and minimum 6 characters": {
-        "1": "Najmanje 1 specijalni karakter i minimum 6 karaktera"
+        "1": "Najmanje 1 specijalni karakter i minimum 6 karaktera."
     },
     "Password do not match": {
-        "1": "Šifre se ne poklapaju"
+        "1": "Šifre se ne poklapaju."
     },
     "You must agree with the terms and conditions": {
-        "1": "Morate prihvatiti uslove korišćenja"
+        "1": "Morate prihvatiti uslove korišćenja."
     },
     "Registration successful!": {
         "1": "Uspješna registracija!"

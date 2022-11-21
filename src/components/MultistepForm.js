@@ -6,13 +6,12 @@ import FinalStep from "./FinalStep";
 import { useTranslation } from "react-i18next";
 
 const MultistepForm = () => {
-
-    //react hooks
+    const { t, i18n } = useTranslation();
 
     const [activeStep, setActiveStep] = useState(0);
 
     function getSteps() {
-        return ["START REGISTRATION", "CONTINUE", "COMPLETE"];
+        return [t('Start registration.1'), t('Continue.1'), t('Complete.1')];
     }
 
     const steps = getSteps();
@@ -40,8 +39,6 @@ const MultistepForm = () => {
                 return "Uncknown step";
         }
     }
-
-    const { t, i18n } = useTranslation();
 
     function clickLanguage(lang) {
         i18n.changeLanguage(lang);

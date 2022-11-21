@@ -1,12 +1,12 @@
 {
     "Start registration": {
-        "1": "Start registration"
+        "1": "START REGISTRATION"
     },
     "Continue": {
-        "1": "Continue"
+        "1": "CONTINUE"
     },
     "Complete": {
-        "1": "Complete"
+        "1": "COMPLETE"
     },
     "Fill the data to continue": {
         "1": "Fill the data to continue"
@@ -45,25 +45,25 @@
         "1": "Spanish"
     },
     "First name must be more than 1 character": {
-        "1": "First name must be more than 1 character"
+        "1": "First name must be more than 1 character."
     },
     "Last name must be more than 3 characters": {
-        "1": "Last name must be more than 3 characters"
+        "1": "Last name must be more than 3 characters."
     },
     "Username must be more than 1 character": {
-        "1": "Username must be more than 1 character"
+        "1": "Username must be more than 1 character."
     },
     "Email format is not correct": {
-        "1": "Email format is not correct"
+        "1": "Email format is not correct."
     },
     "At least one special charachter and minimum 6 characters": {
-        "1": "At least one special charachter and minimum 6 characters"
+        "1": "At least one special charachter and minimum 6 characters."
     },
     "Password do not match": {
-        "1": "Password do not match"
+        "1": "Password do not match."
     },
     "You must agree with the terms and conditions": {
-        "1": "You must agree with the terms and conditions"
+        "1": "You must agree with the terms and conditions."
     },
     "Registration successful!": {
         "1": "Registration successful!"

@@ -53,7 +53,7 @@ const FirstStep = ({ activeStep, steps, handleNext }) => {
                     {errors.firstName && dirty.firstName && (
                         <Typography
                             style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                        >{errors.firstName}
+                        > {t('First name must be more than 1 character.1')}
                         </Typography>
                     )}
                     <TextField className="inputField"
@@ -67,7 +67,7 @@ const FirstStep = ({ activeStep, steps, handleNext }) => {
                     {errors.lastName && dirty.lastName && (
                         <Typography
                             style={{ marginTop: "0", color: "blue", fontWeight: "200" }}
-                        >{errors.lastName}
+                        >{t('Last name must be more than 3 characters.1')}
                         </Typography>
                     )}
                     {
@@ -76,13 +76,13 @@ const FirstStep = ({ activeStep, steps, handleNext }) => {
                             (
                                 // <>
                                 <Button className="disabledButton" disabled variant="contained">
-                                    {activeStep === steps.length ? "Finish" : "Continue"}
+                                    {activeStep === steps.length ? "Finish" : t('Continue.1')}
                                 </Button>
                                 // </>
                             ) : (
                                 // <>
                                 <Button className="button" onClick={handleNext} variant="contained">
-                                    {activeStep === steps.length ? "Finish" : "Continue"}
+                                    {activeStep === steps.length ? "Finish" : t('Continue.1')}
                                 </Button>
                                 // </>
                             )
